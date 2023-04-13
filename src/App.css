@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+#Contenedor{
+  border-color: black;
+  border-style: solid;
+  width: fit-content;
+  height: fit-content;
+  align-content: center;
+  margin-top: 5%;
+}
