@@ -3,18 +3,26 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Links from "./component/Links"
 import Navbar from "./component/Navbar"
 import Inicio from "./component/Inicio"
-import Css from "./component/css"
+import About from "./component/About"
+import Footer from './component/footer';
+import Imagen from './component/Imagen';
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Navbar/>
+      <Imagen/>
       <Links/>
         <Routes>
-          <Route path="/" element={<Inicio/>} />
-          <Route path="/Css" element={<Css/>} />
+          <Route path="/" element={<Inicio/>}/>
+          <Route path="/About" element={<About/>}/>
         </Routes>
       </BrowserRouter>
+
+      <iframe src="" name="iframe" title="Iframe" width="1500px" className="iframe" height="400px"></iframe>
+
+      <Footer />
     </div>
   );
 }

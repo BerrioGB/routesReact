@@ -45,3 +45,22 @@
   align-content: center;
   margin-top: 5%;
 }
+
+.nav-link{
+  color: white;
+}
+
+.iframe{
+  padding-top: 100px;
+}
+.foto{
+  width: 1200px;
+  height: 400px;
+}
+.container{
+  border: solid 1px;
+  width: min-content;
+  height: min-content;
+  padding: 50px;
+  align-items: center;
+}
